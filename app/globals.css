@@ -2,32 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@layer components {
+  .heading {
+    @apply text-white text-[20px] md:text-[35px] font-semibold w-[80%] mx-auto;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  .heading:after {
+    content: "";
+    display: block;
+    width: 7rem;
+    height: 2px; 
+    background-color: rgb(65, 65, 197); 
+    margin-top: 5px; 
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* Set the background color to black when in dark mode and white when in light mode */
+html.dark {
+  text: white;
+  background-color: white;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+html.light {
+  text: black;
+  background-color: black;
 }
