@@ -9,7 +9,7 @@ const Sports: React.FC = () => {
         <div className="bg-white shadow-lg p-4 transition duration-300 transform hover:scale-105 dark:bg-slate-600">
           <img src="/Assets/player1.png" className="w-full h-auto hover:opacity-75" alt="Player 1" />
           <h3 className="text-lg mb-2 text-black hover:text-blue-700 dark:text-white opacity-90">Sacramento River Cats</h3>
-          <div className='bg-white shadow-lg opacity-80 hover:opacity-80 dark:bg-gray-800 opacity-90'>
+          <div className='bg-white shadow-lg opacity-80 hover:opacity-80 dark:bg-gray-800 '>
             <ul>
               <li className='p-2 text-black dark:text-white opacity-90'>Total Events</li> 
               <li className='pl-2 pb-2 text-black dark:text-white opacity-90'>48 Events</li>
@@ -20,7 +20,7 @@ const Sports: React.FC = () => {
         <div className="bg-white shadow-lg p-4 transition duration-300 transform hover:scale-105 dark:bg-slate-600">
           <img src="/Assets/player2.png" className="w-full h-auto hover:opacity-75" alt="Player 2" />
           <h3 className="text-lg mb-2 text-black hover:text-blue-600 dark:text-white opacity-90">Sacramento River Cats</h3>
-          <div className='bg-white shadow-lg opacity-80 hover:opacity-100 dark:bg-gray-800 opacity-90'>
+          <div className='bg-white shadow-lg opacity-80 hover:opacity-100 dark:bg-gray-800 '>
             <ul>
               <li className='p-2 text-black dark:text-white opacity-90'>Total Events</li>
               <li className='pl-2 pb-2 text-black dark:text-white opacity-90'>28 Events</li>
@@ -31,7 +31,7 @@ const Sports: React.FC = () => {
         <div className="bg-white shadow-lg p-4 transition duration-300 transform hover:scale-105 dark:bg-slate-600">
           <img src="/Assets/player3.png" className="w-full h-auto hover:opacity-75" alt="Player 3" />
           <h3 className="text-lg mb-2 text-black hover:text-blue-600 dark:text-white opacity-90">Sacramento River Cats</h3>
-          <div className='bg-white shadow-lg opacity-80 hover:opacity-100 dark:bg-gray-800 opacity-90'>
+          <div className='bg-white shadow-lg opacity-80 hover:opacity-100 dark:bg-gray-800 '>
             <ul>
               <li className='p-2 text-black dark:text-white opacity-90'>Total Events</li>
               <li className='pl-2 pb-2 text-black dark:text-white opacity-90'>15 Events</li>
@@ -42,7 +42,7 @@ const Sports: React.FC = () => {
         <div className="bg-white shadow-lg p-4 transition duration-300 transform hover:scale-105 dark:bg-slate-600">
           <img src="/Assets/player2.png" className="w-full h-auto hover:opacity-75" alt="Player 4" />
           <h3 className="text-lg mb-2 text-black hover:text-blue-600 dark:text-white opacity-90">Sacramento River Cats</h3>
-          <div className='bg-white shadow-lg opacity-80 hover:opacity-100 dark:bg-gray-800 opacity-90'>
+          <div className='bg-white shadow-lg opacity-80 hover:opacity-100 dark:bg-gray-800 '>
             <ul>
               <li className='p-2 text-black dark:text-white opacity-90'>Total Events</li>
               <li className='pl-2 pb-2 text-black dark:text-white opacity-90'>28 Events</li>
