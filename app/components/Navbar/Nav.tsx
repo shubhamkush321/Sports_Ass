@@ -1,5 +1,4 @@
 import React from 'react'
-import Logo from '../../../public/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import { BiMenu } from "react-icons/bi";
@@ -14,11 +13,7 @@ const Nav = ({openNav}:Props) => {
   return (
     <div className='h-[10vh] shadow-md'>
       <div className='flex items-center justify-between h-[100%] w-[90%] mx-auto '>
-        {/* Logo */}
-        {Logo && (
-          <Image src={Logo} alt="Logo" width={80} height={80} />
-        )}
-
+       
         <ul className='hidden lg:flex items-center space-x-14'> 
           {/* Home Link */}
           <li className='text-[18px] font-medium uppercase hover:text-red-600 transition-all duration-100'>
